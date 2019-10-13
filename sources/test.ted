@@ -1,0 +1,22 @@
+a : real = 4.9;
+b : int = 5;
+
+print a + b;
+
+
+
+test1 : (x : int, y : int) = {
+    x = 10;
+    y = 5;
+    print x + y;
+};
+call test1;
+
+
+test : (x : int, y : int) = {
+    print x + y;
+};
+
+call test(x = 1, y = 3);
+
+
